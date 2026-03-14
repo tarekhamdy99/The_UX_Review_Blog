@@ -1,0 +1,742 @@
+/* very small devices in landscape orientation (up to 500px)*/
+@media screen and (max-height: 500px) {
+  .hero {
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .hero .box .hero-image .pic {
+    padding-top: 30px;
+  }
+
+  .hero .box .hero-image .pic img {
+    height: 200px;
+  }
+
+  .authors .container .authors-box .author {
+    margin-bottom: 20px;
+  }
+
+  .authors-box .author .author-info p {
+    min-height: auto;
+  }
+}
+
+/* Small devices (up to 640px) */
+@media screen and (max-width: 640px) {
+  /* Navbar */
+  nav .menu-toggle {
+    display: flex;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  nav .logo a {
+    font-size: 24px;
+  }
+
+  /* Container */
+  .container {
+    width: 90%;
+  }
+
+  .container .title h2 {
+    font-size: 32px;
+  }
+
+  .container .title p {
+    font-size: 16px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+
+  .hero .box {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero .box .hero-content,
+  .hero .box .hero-image {
+    width: 100%;
+  }
+
+  .hero .container .hero-content .shapes {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+    left: -30px;
+  }
+
+  .hero .container .hero-image .shapes {
+    width: 60px;
+    height: 60px;
+    right: -20px;
+  }
+
+  .hero .box .hero-content h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .hero .box .desc p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .hero .box .action {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero .box .hero-image .pic img {
+    height: 280px;
+  }
+
+  .hero .box .hero-image .pic span {
+    top: 65px;
+    right: -5px;
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  /* Latest Articles Section */
+  .lastest-articles .box {
+    flex-direction: column;
+  }
+
+  .lastest-articles .box .left-side,
+  .lastest-articles .box .right-side {
+    width: 100%;
+  }
+
+  .lastest-articles .box .right-side {
+    position: static;
+    padding: 20px 0;
+  }
+
+  .lastest-articles .box .left-side .title h2 {
+    font-size: 28px;
+  }
+
+  .lastest-articles .box .left-side .title span {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .lastest-articles .box .left-side .articles .article {
+    padding: 20px 15px;
+  }
+
+  .lastest-articles .box .left-side .articles .article .article-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .article-img,
+  .article-content {
+    width: 100%;
+  }
+
+  .article-img img {
+    width: 100%;
+  }
+
+  .article-img span {
+    right: 10px;
+  }
+
+  .article-content h3 {
+    font-size: 20px;
+  }
+
+  .article-content p {
+    font-size: 16px;
+  }
+
+  .article-content .article-info {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .article-content .article-info span {
+    font-size: 12px;
+  }
+
+  .floating-button {
+    min-width: 280px;
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+
+  /* Authors Section */
+  .authors {
+    padding: 40px 0;
+  }
+
+  .authors .shapes {
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .authors .shapes-2 {
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .authors .container .authors-box {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .authors .container .authors-box .author {
+    width: 100%;
+  }
+
+  .authors-box .author .author-info h3 {
+    font-size: 24px;
+  }
+
+  .authors-box .author .author-info p {
+    font-size: 14px;
+    min-height: auto;
+  }
+
+  .author .author-container .badge {
+    top: 15px;
+    right: -5px;
+    font-size: 10px;
+  }
+
+  /* community Section */
+  .community {
+    padding: 40px 0;
+  }
+
+  .community .container .community-box {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .community .container .community-box .left-side,
+  .community .container .community-box .right-side {
+    width: 100%;
+  }
+
+  .community .container .community-box .left-side h3 {
+    font-size: 24px;
+  }
+
+  .community .container .community-box .left-side .desc {
+    font-size: 16px;
+  }
+
+  .right-side {
+    padding: 5px 20px 25px;
+  }
+
+  .right-side h3 {
+    font-size: 24px;
+  }
+
+  .author-saying .saying p {
+    font-size: 16px;
+  }
+
+  /* Footer */
+  .main-footer {
+    padding: 40px 0 20px;
+  }
+
+  .main-footer .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-section {
+    min-width: 100%;
+  }
+
+  .footer-logo h2 {
+    font-size: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-legal {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-legal a {
+    font-size: 14px;
+  }
+
+  .subscribe-form input {
+    padding: 15px 12px;
+  }
+
+  .subscribe-form input::placeholder {
+    font-size: 14px;
+  }
+
+  .subscribe-form button {
+    padding: 15px 12px;
+    font-size: 16px;
+  }
+}
+
+/* Small devices (640px and up to 767px) */
+@media screen and (min-width: 641px) and (max-width: 767px) {
+  /* Navbar */
+  nav .menu-toggle {
+    display: flex;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  /* Container */
+  .container {
+    width: 90%;
+  }
+
+  .container .title h2 {
+    font-size: 36px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding-top: 140px;
+  }
+
+  .hero .box {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .hero .box .hero-content,
+  .hero .box .hero-image {
+    width: 100%;
+  }
+
+  .hero .box .hero-content h1 {
+    font-size: 54px;
+    line-height: 64px;
+  }
+
+  .hero .box .action {
+    gap: 20px;
+  }
+
+  /* Latest Articles Section */
+  .lastest-articles .box {
+    flex-direction: column;
+  }
+
+  .lastest-articles .box .left-side,
+  .lastest-articles .box .right-side {
+    width: 100%;
+  }
+
+  .lastest-articles .box .right-side {
+    position: static;
+  }
+
+  .lastest-articles .box .left-side .title h2 {
+    font-size: 36px;
+  }
+
+  /* Authors Section */
+  .authors .container .authors-box {
+    gap: 25px;
+  }
+
+  .authors .container .authors-box .author {
+    width: 100%;
+  }
+
+  /* community Section */
+  .community .container .community-box {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .community .container .community-box .left-side,
+  .community .container .community-box .right-side {
+    width: 100%;
+  }
+
+  /* Footer */
+  .main-footer .footer-content {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-section {
+    min-width: calc(50% - 20px);
+  }
+
+  .footer-section:first-child,
+  .footer-section:last-child {
+    flex: 1 1 100%;
+  }
+}
+
+/* Medium devices (768px and up 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Navbar */
+  nav .menu-toggle {
+    display: flex;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  /* Container */
+  .container {
+    width: 90%;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding-top: 150px;
+  }
+
+  .hero .box .hero-content h1 {
+    font-size: 58px;
+    line-height: 68px;
+  }
+
+  .hero .box .hero-image .pic img {
+    height: 320px;
+  }
+
+  /* Latest Articles Section */
+  .lastest-articles .box .left-side {
+    width: 58%;
+  }
+
+  .lastest-articles .box .right-side {
+    width: 40%;
+    padding: 20px 10px;
+  }
+
+  .lastest-articles .box .left-side .title h2 {
+    font-size: 36px;
+  }
+
+  .article-content h3 {
+    font-size: 20px;
+  }
+
+  .article-content p {
+    font-size: 16px;
+  }
+
+  .article-content .article-info {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .article-content .article-info span {
+    font-size: 11px;
+  }
+
+  .trend-now h3,
+  .Categories h3 {
+    font-size: 24px;
+  }
+
+  /* Authors Section */
+  .authors .container .authors-box .author {
+    width: 48%;
+  }
+
+  .authors .container .authors-box .author:last-child {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .authors-box .author .author-info h3 {
+    font-size: 24px;
+  }
+
+  /* community Section */
+  .community .container .community-box .left-side h3 {
+    font-size: 28px;
+  }
+
+  .right-side {
+    padding: 5px 25px 30px;
+  }
+
+  /* Footer */
+  .footer-section {
+    min-width: 200px;
+  }
+}
+
+/* Large devices (1024px and up to 1279px) */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* Navbar */
+  nav .menu-toggle {
+    display: flex;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  /* Container */
+  .container {
+    width: 90%;
+  }
+
+  /* Hero Section */
+  .hero .box .hero-content h1 {
+    font-size: 64px;
+    line-height: 74px;
+  }
+
+  /* Latest Articles Section */
+  .lastest-articles .box .left-side .title h2 {
+    font-size: 42px;
+  }
+
+  .article-content h3 {
+    font-size: 22px;
+  }
+
+  /* Authors Section */
+  .authors .container .authors-box .author {
+    width: 32%;
+  }
+
+  .authors-box .author .author-info h3 {
+    font-size: 26px;
+  }
+
+  /* community Section */
+  .community .container .community-box .left-side h3 {
+    font-size: 32px;
+  }
+
+  /* Footer */
+  .footer-section:first-child {
+    flex: 1.5;
+  }
+
+  .footer-section:last-child {
+    flex: 1.5;
+  }
+}
+
+/* X-Large devices (1280px and up to 1535px) */
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  /* Navbar - Desktop view */
+  nav .menu-toggle {
+    display: none;
+  }
+
+  nav .links {
+    display: block;
+  }
+
+  nav .btn {
+    display: block;
+  }
+
+  /* Container */
+  .container {
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  /* Hero Section */
+  .hero .box .hero-content h1 {
+    font-size: 72px;
+    line-height: 90px;
+  }
+
+  /* Latest Articles Section */
+  .lastest-articles .box .left-side .title h2 {
+    font-size: 48px;
+  }
+
+  .article-content h3 {
+    font-size: 24px;
+  }
+
+  .article-content p {
+    font-size: 18px;
+  }
+
+  /* Authors Section */
+  .authors .container .authors-box .author {
+    width: 32%;
+  }
+
+  .authors-box .author .author-info h3 {
+    font-size: 30px;
+  }
+
+  /* community Section */
+  .community .container .community-box .left-side h3 {
+    font-size: 36px;
+  }
+
+  /* Footer */
+  .footer-section:first-child {
+    flex: 2;
+  }
+
+  .footer-section:nth-child(2) {
+    flex: 1;
+  }
+
+  .footer-section:last-child {
+    flex: 2;
+  }
+}
+
+/* very Large devices (1536px and up) */
+@media screen and (min-width: 1536px) {
+  /* Navbar - Desktop view */
+  nav .menu-toggle {
+    display: none;
+  }
+
+  nav .links {
+    display: block;
+  }
+
+  nav .btn {
+    display: block;
+  }
+
+  /* Container - Larger max-width for big screens */
+  .container {
+    width: 80%;
+    max-width: 1400px;
+  }
+
+  /* Hero Section - Larger elements for big screens */
+  .hero .box .hero-content h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .hero .box .hero-image .pic img {
+    height: 400px;
+  }
+
+  /* Latest Articles Section */
+  .lastest-articles .box .left-side .title h2 {
+    font-size: 52px;
+  }
+
+  .article-content h3 {
+    font-size: 26px;
+  }
+
+  .article-content p {
+    font-size: 20px;
+  }
+
+  /* Authors Section */
+  .authors .container .authors-box .author {
+    width: 32%;
+  }
+
+  .authors-box .author .author-info h3 {
+    font-size: 32px;
+  }
+
+  .authors-box .author .author-info p {
+    font-size: 16px;
+  }
+
+  /* community Section */
+  .community .container .community-box .left-side h3 {
+    font-size: 40px;
+  }
+
+  .community .container .community-box .left-side .desc {
+    font-size: 22px;
+  }
+
+  .right-side h3 {
+    font-size: 34px;
+  }
+
+  /* Footer - Larger spacing for big screens */
+  .main-footer {
+    padding: 100px 0 60px;
+  }
+
+  .footer-logo h2 {
+    font-size: 32px;
+  }
+
+  .footer-section p {
+    font-size: 20px;
+  }
+
+  .footer-section h3 {
+    font-size: 28px;
+  }
+
+  .footer-section ul li a {
+    font-size: 20px;
+  }
+
+  .footer-bottom {
+    font-size: 15px;
+  }
+
+  .footer-legal a {
+    font-size: 18px;
+  }
+
+  .subscribe-form input {
+    padding: 30px 20px;
+  }
+
+  .subscribe-form button {
+    font-size: 20px;
+    padding: 25px 15px;
+  }
+}
