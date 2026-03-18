@@ -845,7 +845,7 @@ nav .btn a:hover {
 }
 
 /* Start community Right Side  Section Style */
-.right-side {
+.community .container .right-side {
   width: 45%;
   border: 5px solid #000;
   padding: 5px 40px 35px;
